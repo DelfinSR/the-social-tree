@@ -1,0 +1,8 @@
+DUMMY.txt
+---------
+
+[EN]
+This is a dummy file that ensures that this folder is not empty. You should put the data of the 'facebook_large' folder you download inside this one, or rename it 'facebook_large' and move it to the same directory as the folder 'cuadernos'. 
+
+[ES]
+Este es un archivo ficticio que garantiza que esta carpeta no esté vacía. Deberías poner los datos de la carpeta "facebook_large" que descargues dentro de esta, o cambiar el nombre de esa carpeta por el de "facebook_large" y moverla al mismo directorio que la carpeta "cuadernos".
