@@ -1,11 +1,11 @@
-# The Social Tree - El Árbol Social
+# 🌳 The Social Tree - El Árbol Social 🕸️
 
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/antoniommff/the-social-tree/releases)
 [![Python](https://img.shields.io/badge/python-3.12.X-blue.svg)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/jupyter-notebook-orange.svg)](https://jupyter.org/)
 
 
-## Content table
+## Content table - Tabla de contenido
 
 - [About - Acerca de](#about)
 - [Usage - Uso](#usage)
@@ -14,8 +14,9 @@
 
 
 
-<a name="about"></a>
-## About - Acerca de
+<br></br>
+
+## <a name="about"></a>About - Acerca de
 
 [EN]
 **In this project conducted in collaboration with [Delfín Santana](https://github.com/DelfinSR), we have performed a study of *relational metrics* for a dataset in the form of a graph that can be used to train a relational machine learning model**.
@@ -31,16 +32,17 @@ In the following sections, we explain how to run the *Jupyter* notebooks with th
 
 Usando el lenguaje de programación *Python* y ayudándonos de librerías como *[scikit-learn](https://scikit-learn.org/stable/)*, hemos obtenido características relacionales de un grafo con más de 20,000 páginas de *Facebook* para averiguar a qué grupo pertenecía cada una de ellas. Los grupos a los que podía pertenecer las páginas eran los siguientes: politicos, organizaciones gubernamentales, programas de televisión y empresas. 
 
-Tras entrenar y evaluar varios modelos con varias combinaciones de métrica e hiperparámetros, **hemos concluído que un algoritmo de árboles de clasificación (*CART*) es el más adecuado para esta tarea de aprendizaje automático**. Por otro lado, **usando la librería [node2vec](https://snap.stanford.edu/node2vec/), conseguimos entrenar un algoritmo de clasificación usando un nodelo *Knn* con una precisión de más del 90%**, incluso mayor que la anteriormente mencionada. 
+Tras entrenar y evaluar varios modelos con varias combinaciones de métrica e hiperparámetros, **hemos concluído que un algoritmo de árboles de clasificación (*CART*) es el más adecuado para esta tarea de aprendizaje automático**. Por otro lado, **usando la librería [node2vec](https://snap.stanford.edu/node2vec/), conseguimos entrenar un algoritmo de clasificación usando un modelo *Knn* con una precisión de más del 90%**, incluso mayor que la anteriormente mencionada. 
 
 En los siguientes apartados explicamos cómo ejecutar los cuadernos de *Jupyter* con el código y resumimos qué podrás encontrar en documento del estudio realizado.
 
 
 
-<a name="usage"></a>
-# Usage - Uso
+<br></br>
 
-0. Download necessary programmes and libraries - Descargar programas y librerías necesarias:
+## <a name="usage"></a>Usage - Uso
+
+### 0. Download necessary programmes and libraries - Descargar programas y librerías necesarias:
 
 [EN]
 To start our project and experiment with the trained models, we recommend following these steps:
@@ -60,8 +62,9 @@ Nota: en sistemas operativos como MacOS será necesario hacer uso de `brew`o `Ho
 - [SciPy](https://scipy.org/install/) (>= 1.13.X)
 - [Scikit-learn](https://scikit-learn.org/stable/install.html) (>=1.5)
 - [Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html) (>=2.2.X)
+- [Node2Vec](https://github.com/aditya-grover/node2vec) (latest)
 
-1. Clone the repository - Clonar el repositorio:
+### 1. Clone the repository - Clonar el repositorio:
 
 [EN]
 First, you must clone our repository or download the folders and place them in the desired location.
@@ -69,7 +72,7 @@ First, you must clone our repository or download the folders and place them in t
 [ES]
 Primero, deberás clonar nuestro repositorio o descargar las carpetas y colocarlas en la ubicación deseada.
 
-2. Download the data - Descargar los datos:\\
+### 2. Download the data - Descargar los datos:
 
 [EN]
 Next, you will have to download the *Facebook* data used to train the models. You must download them and enter them in the folder called `facebook_large` or name the folder of the data you download with the same name. In any case, the folder with the data must be at the same directory level as the `cadernos` folder.
@@ -79,20 +82,35 @@ Seguidamente, deberás descargar los datos de *Facebook* utilizados para entrena
 
 **Link - Enlace: https://snap.stanford.edu/data/facebook-large-page-page-network.html**
 
-3. Run the notebooks! - ¡Ejecutar los cuadernos!
+### 3. Run the notebooks! - ¡Ejecutar los cuadernos!
 
 [EN]
+Now you will only have to run the *Jupyter* notebooks in order and explore the models. You can find them all in the `cuadernos` folder. In the `grafos` folder you can find the representations of the graphs already generated after the execution of the first notebooks. These take a long time to execute, that's why we already provide the representations obtained after their execution.
 
 [ES]
-
-
-<a name="documentation"></a>
-# Documentation - Documentación
+Ahora solo tendrás que ejecutar los cuadernos de *Jupyter* en orden y exploarar los modelos. Podrás encontrarlos todos en la carpeta `cuadernos`. En la carpeta `grafos` podrás encontrar las representaciones de los grafos ya generadas tras la ejecución de los primeros cuadernos. Estos tardan bastante en ejecutarse, por eso aportamos directamente las representaciones obtenidas tras su ejecución.
 
 
 
-<a name="contact"></a>
-# Contact - Contacto
+<br></br>
+
+## <a name="documentation"></a>Documentation - Documentación
+
+[EN]
+You can find a complete study in the file [El-arbol-social.pdf](https://github.com/antoniommff/the-social-tree/blob/main/El-arbol-social.pdf). There, we delve into the mathematical and more technical details of the entire code, and the results obtained after the training of the models are discussed in further detail.
+
+[ES]
+Podrás encontrar un estudio completo en el archivo [El-arbol-social.pdf](https://github.com/antoniommff/the-social-tree/blob/main/El-arbol-social.pdf). Aquí, profundizamos en los detalles matemáticos y más tecnicos de todo el código y se comentan en detalle los resultados obtenidos tras el entrenamiento de los modelos.
+
+<br></br>
+
+## <a name="contact"></a>Contact - Contacto
+
+**Antonio Macías Ferrera: https://github.com/antoniommff ; https://bento.me/antoniommff**
+**Delfín Santana Rubio: https://github.com/DelfinSR**
 
 
+
+
+<br></br>
 
