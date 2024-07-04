@@ -19,7 +19,7 @@
 ## <a name="about"></a>About - Acerca de
 
 [EN]
-**In this project conducted in collaboration with [Delfín Santana](https://github.com/DelfinSR), we have performed a study of *relational metrics* for a dataset in the form of a graph that can be used to train a relational machine learning model**.
+**In this project conducted in collaboration with [Antonio Macías](https://github.com/antoniommff), we have performed a study of *relational metrics* for a dataset in the form of a graph that can be used to train a relational machine learning model**.
 
 Using the programming language *Python* and leveraging libraries such as *[scikit-learn](https://scikit-learn.org/stable/)*, we extracted relational features from a graph with over 20,000 *Facebook* pages to determine which group each belonged to. The groups the pages could belong to are: 'politicians', 'government organizations', 'TV shows', and 'companies'.
 
@@ -28,7 +28,7 @@ After training and evaluating several models with various combinations of metric
 In the following sections, we explain how to run the *Jupyter* notebooks with the code and summarize what you will find in the study document.
 
 [ES]
-**En este proyecto realizado en conjunto con [Delfín Santana](https://github.com/DelfinSR) hemos realizado un estudio de métricas relacionales para un conjunto de datos en forma de grafo que sirvan para entrenar a un modelo de aprendizaje automático relacional**. 
+**En este proyecto realizado en conjunto con [Antonio Macías](https://github.com/antoniommff) hemos realizado un estudio de métricas relacionales para un conjunto de datos en forma de grafo que sirvan para entrenar a un modelo de aprendizaje automático relacional**. 
 
 Usando el lenguaje de programación *Python* y ayudándonos de librerías como *[scikit-learn](https://scikit-learn.org/stable/)*, hemos obtenido características relacionales de un grafo con más de 20,000 páginas de *Facebook* para averiguar a qué grupo pertenecía cada una de ellas. Los grupos a los que podía pertenecer las páginas eran los siguientes: politicos, organizaciones gubernamentales, programas de televisión y empresas. 
 
@@ -48,13 +48,10 @@ En los siguientes apartados explicamos cómo ejecutar los cuadernos de *Jupyter*
 To start our project and experiment with the trained models, we recommend following these steps:
 First, we recommend using the version of `Python 3.12.8` or higher, which is the one we have used for all notebooks. Also, you must install the latest version of `Jupyter notebook` to run the notebooks with the code, and `Conda`, which will be necessary to run *Jupyter* and some libraries such as *numpy*. Finally, the following libraries used throughout the code will have to be installed:
 
-Note: in operating systems such as MacOS it will be necessary to use `brew` or `Homebrew` to install some packages, it is recommended to use the specific documentation in each case.
-
 [ES]
 Para poner en marcha nuestro proyecto y experimentar con los modelos entrenados recomendamos seguir los siguientes pasos:
 Primero, recomendamos usar la versión de `Python 3.12.8` o superior, que es la que hemos usado para todos lo cuadernos. También, deberás instalar la última versión de `Jupyter notebook` para ejecutar los cuadernos con el código, y `Conda` que será necesario para ejecutar tanto *Jupyter* como algunas librerías como *numpy*. Por último, habrá que tener instaladas las siguienes librerías que se usan a lo largo de todo el código:
 
-Nota: en sistemas operativos como MacOS será necesario hacer uso de `brew`o `Homebrew` para instalar algunos paquetes, se recomienda usar la documentación específica en cada caso.
 
 - [Matplotlib](https://matplotlib.org/stable/install/index.html) (>= 3.9)
 - [Networx](https://github.com/networkx/networkx) (>= 3.3)
@@ -97,20 +94,18 @@ Ahora solo tendrás que ejecutar los cuadernos de *Jupyter* en orden y exploarar
 ## <a name="documentation"></a>Documentation - Documentación
 
 [EN]
-You can find a complete study in the file [El-arbol-social.pdf](https://github.com/antoniommff/the-social-tree/blob/main/El-arbol-social.pdf). There, we delve into the mathematical and more technical details of the entire code, and the results obtained after the training of the models are discussed in further detail.
+You can find a complete study in the file [El-arbol-social.pdf](https://github.com/DelfinSR/the-social-tree/blob/main/El-arbol-social.pdf). There, we delve into the mathematical and more technical details of the entire code, and the results obtained after the training of the models are discussed in further detail.
 
 [ES]
-Podrás encontrar un estudio completo en el archivo [El-arbol-social.pdf](https://github.com/antoniommff/the-social-tree/blob/main/El-arbol-social.pdf). Aquí, profundizamos en los detalles matemáticos y más tecnicos de todo el código y se comentan en detalle los resultados obtenidos tras el entrenamiento de los modelos.
+Podrás encontrar un estudio completo en el archivo [El-arbol-social.pdf](https://github.com/DelfinSR/the-social-tree/blob/main/El-arbol-social.pdf). Aquí, profundizamos en los detalles matemáticos y más tecnicos de todo el código y se comentan en detalle los resultados obtenidos tras el entrenamiento de los modelos.
 
 <br></br>
 
 ## <a name="contact"></a>Contact - Contacto
 
-**Antonio Macías Ferrera: https://github.com/antoniommff ; https://bento.me/antoniommff**
 **Delfín Santana Rubio: https://github.com/DelfinSR**
-
-
-
+<br></br>
+**Antonio Macías Ferrera: https://github.com/antoniommff ; https://bento.me/antoniommff**
 
 <br></br>
 
