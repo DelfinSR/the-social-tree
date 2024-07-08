@@ -19,7 +19,7 @@
 ## <a name="about"></a>About - Acerca de
 
 [EN]
-**In this project conducted in collaboration with [Antonio Macías](https://github.com/antoniommff), we have performed a study of *relational metrics* for a dataset in the form of a graph that can be used to train a relational machine learning model**.
+**In this project conducted in collaboration with [Antonio Macías](https://github.com/antoniommff), we have performed a study of *relational metrics* for a dataset in the form of a graph that can be used to train a relational machine learning model to do multi-class node classification**.
 
 Using the programming language *Python* and leveraging libraries such as *[scikit-learn](https://scikit-learn.org/stable/)*, we extracted relational features from a graph with over 20,000 *Facebook* pages to determine which group each belonged to. The groups the pages could belong to are: 'politicians', 'government organizations', 'TV shows', and 'companies'.
 
@@ -28,7 +28,7 @@ After training and evaluating several models with various combinations of metric
 In the following sections, we explain how to run the *Jupyter* notebooks with the code and summarize what you will find in the study document.
 
 [ES]
-**En este proyecto realizado en conjunto con [Antonio Macías](https://github.com/antoniommff) hemos realizado un estudio de métricas relacionales para un conjunto de datos en forma de grafo que sirvan para entrenar a un modelo de aprendizaje automático relacional**. 
+**En este proyecto realizado en conjunto con [Antonio Macías](https://github.com/antoniommff) hemos realizado un estudio de métricas relacionales para un conjunto de datos en forma de grafo que sirvan para entrenar a un modelo de aprendizaje automático relacional para realizar tareas de clasificación de nodos multiclase**.
 
 Usando el lenguaje de programación *Python* y ayudándonos de librerías como *[scikit-learn](https://scikit-learn.org/stable/)*, hemos obtenido características relacionales de un grafo con más de 20,000 páginas de *Facebook* para averiguar a qué grupo pertenecía cada una de ellas. Los grupos a los que podía pertenecer las páginas eran los siguientes: politicos, organizaciones gubernamentales, programas de televisión y empresas. 
 
